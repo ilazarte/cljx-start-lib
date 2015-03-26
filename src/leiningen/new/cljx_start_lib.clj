@@ -12,7 +12,7 @@
 (defn cljx-start
   "cljx based clojure/script lib"
   [name]
-  (let [render    (renderer "cljx-start")
+  (let [render    (renderer "cljx-start-lib")
         main-ns   (multi-segment (sanitize-ns name))
         sanitized (sanitize (project-name name))
         data      {:name        (project-name name)
