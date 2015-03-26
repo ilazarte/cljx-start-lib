@@ -9,7 +9,7 @@
             [leiningen.core.main :as main]))
 
 ; TODO, review multi-segment vs namespace vars candidates for removal
-(defn cljx-start
+(defn cljx-start-lib
   "cljx based clojure/script lib"
   [name]
   (let [render    (renderer "cljx-start-lib")
