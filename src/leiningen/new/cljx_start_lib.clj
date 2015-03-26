@@ -30,8 +30,8 @@
       ["LICENSE"                            (render "LICENSE" data)]
       ["project.clj"                        (render "project.clj" data)]
       ["src/cljx/{{sanitized}}/core.cljx"   (render "core.cljx" data)]
-      ["dev/cljx/{{sanitized}}/main.cljx"   (render "main.cljx" data)]
-      ["dev/cljx/{{sanitized}}/routes.cljx" (render "routes.cljx" data)]
-      ["dev/cljx/{{sanitized}}/view.cljx"   (render "view.cljx" data)])
+      ["dev/cljx/cljx_start_lib/main.cljx"   (render "main.cljx" data)]
+      ["dev/cljx/cljx_start_lib/routes.cljx" (render "routes.cljx" data)]
+      ["dev/cljx/cljx_start_lib/view.cljx"   (render "view.cljx" data)])
     
     (main/info "Done!")))
