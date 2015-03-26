@@ -1,4 +1,4 @@
-(defproject cljx-start-lib/lein-template "0.1.2"
+(defproject cljx-start-lib/lein-template "0.1.3"
   
   :description "A cljx template for an isomorphic lib"
   
