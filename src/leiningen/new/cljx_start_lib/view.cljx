@@ -16,7 +16,7 @@
   `(js/document.getElementById ~id))
 
 (defmacro innerhtml [el html]
-  `(set! (.-innerHTML el) html))
+  `(set! (.-innerHTML ~el) ~html))
 
 (defmacro innerhtml-by-id [id html]
   `(innerhtml (get-element-by-id id) html))
